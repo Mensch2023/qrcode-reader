@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HTML5 QR Code with Vue js</title>
-    <link rel="stylesheet" href="/vuejs/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -22,8 +22,9 @@
         <div class="footer" style="margin-bottom: 20px;">{{ result }}</div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
-    <script src="https://unpkg.com/html5-qrcode"></script>
+    <script src="vue.js"></script>
+    <script src="html5-qrcode.js"></script>
+    <script src="qrcode-scanner.js"></script>
     <script>
         Vue.component('qrcode-scanner', {
             props: {
